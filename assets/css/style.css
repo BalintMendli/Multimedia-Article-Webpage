@@ -16,6 +16,17 @@ body {
   background-color: #ffffff;
 }
 
+.pre-title {
+  background-color: rgb(247, 247, 247);
+  border-bottom: 1px solid rgb(243, 243, 243);
+  display: block;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin: 0px;
+  min-height: 120px;
+  margin-bottom: -49px;
+}
+
 button {
   border-radius: 3px;
   cursor: pointer;
@@ -76,9 +87,16 @@ button:hover {
 }
 
 .title {
-  width: 346px;
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-  font-size: 30px;
+  display: inline-block;
+  max-width: 346.152px;
+  color: #121212;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  font-weight: 700;
+  font-style: italic;
+font-size: 2.25rem;
+  line-height: 2.125rem;
+  vertical-align: baseline;
+  line-height: 1;
 }
 
 .main-img {
@@ -95,7 +113,208 @@ button:hover {
   font-size: 14px;
 }
 
+.doneBYname {
+  font-size: 0.9375rem;
+line-height: 1.25rem;
+display: inline-block;
+-webkit-letter-spacing: 0.02em;
+-moz-letter-spacing: 0.02em;
+-ms-letter-spacing: 0.02em;
+letter-spacing: 0.02em;
+font-size: 0.875rem;
+line-height: 1.125rem;
+margin: 0;
+font-family: nyt-franklin,helvetica,arial,sans-serif;
+font-weight: 700;
+color: #121212;
+margin-left: 160px;
+margin-top: 27px;
+}
+
+.doneBYfooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  color: #121212;
+  margin-left: 160px;
+  margin-right: 160px;
+
+margin top: 10px;
+
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+  display: inline;
+}
+.time {
+  font-weight: 500;
+  font-size: 0.8125rem;
+line-height: 1.125rem;
+
+}
 .small {
   color: #888;
   font-size: 12px;
+}
+
+.c1 {
+  color: #999;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-size: 17px;
+  margin-bottom: 5px;
+
+}
+
+
+
+.c2 {
+
+padding: 0;
+}
+
+.c3 {
+  color: #999;
+display: inline;
+margin-right: 16px;
+padding: 10px 0;
+width: 100%;
+}
+
+.c3-1 {
+  display: inline-block;
+height: 15px;
+vertical-align: middle;
+width: 15px;
+background-color: #eee;
+border: 1px #eee solid;
+border-radius: 100%;
+padding: 5px;
+width: 15px;
+height: 15px;
+color: black;
+}
+
+.c3-1:hover {
+  background-color: white;
+
+}
+.c4 {
+  display: inline;
+  margin: 0;
+padding: 0;
+border: 0;
+vertical-align: middle;
+list-style: none;
+color: #999;
+
+}
+
+.c4-1 {
+  background: transparent;
+  background-color: transparent;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.c4-1:hover {
+  background-color: white;
+  border: 1px #eee solid;
+
+}
+
+.c5 {
+  background-color: rgb(255, 255, 255);
+left: 0px;
+top: 2px;
+cursor: pointer;
+border: 0px;
+vertical-align: middle;
+margin-left: -12px;
+}
+.c5:hover {
+  background-color: white;
+  border: 0px;
+
+
+}
+
+.c6 {
+  margin-right: 0;
+  color: #999;
+display: inline;
+margin-right: 16px;
+padding: 10px 0;
+width: 100%;
+position: relative;
+right: 3px;
+margin-left: -12px;
+vertical-align: middle;
+
+}
+
+.c6-1:hover {
+  background-color: white;
+  border: 0px;
+
+
+}
+
+.c6-1 {
+  align-self: center;
+background-color: transparent;
+border: none;
+cursor: pointer;
+display: inline-flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+overflow: visible;
+text-transform: uppercase;
+height: 25px;
+font-size: .75rem;
+line-height: 1rem;
+font-weight: 500;
+font-family: nyt-franklin,helvetica,arial,sans-serif;
+margin-left: 2px;
+padding: 0 0 4px;
+color: #666;
+min-width: 24px;
+position: relative;
+bottom: .05rem;
+}
+
+.c6-2 {
+  border: 1px solid #666;
+  border-radius: 4px;
+  min-width: 26px;
+  min-height: 14px;
+  padding: 4px;
+  position: relative;
+}
+
+a {
+  color: transparent;
 }
