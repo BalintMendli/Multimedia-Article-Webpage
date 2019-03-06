@@ -117,7 +117,7 @@ button:hover {
 .editPicks {
   position: absolute;
   left: 75%;
-  bottom: -390px;
+  bottom: -10%;
   width: 260px;
   height: 256px;
   display:none;
