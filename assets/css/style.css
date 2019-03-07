@@ -117,24 +117,24 @@ button:hover {
 .editPicks {
   position: absolute;
   left: 75%;
-  bottom: -10%;
+  top: 1200px;
   width: 260px;
   height: 256px;
-  display:none;
+  display: none;
 }
 
 @media (min-width: 1024px) {
   .editPicks {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-       margin-right: 0;
-      margin-left: 0;
-      -webkit-align-items: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -144,38 +144,32 @@ button:hover {
 
 @media (min-width: 1150px) {
   .css-o6xoe7 {
-      width: 210px;
+    width: 210px;
   }
 }
 
 @media (min-width: 1024px) {
   .css-o6xoe7 {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      margin-right: 0;
-      margin-left: 0;
-      width: 130px;
-      -webkit-align-items: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0;
+    margin-left: 0;
+    width: 130px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 .css-dvpunx {
   width: 100%;
-    display: block;
+  display: block;
 }
 @media (min-width: 1150px) {
   .css-dvpunx {
-      max-width: 210px; 
-  }
-}
-
-@media (min-width: 1024px) {
-  .css-dvpunx {
-      max-width: 130px;
+    max-width: 210px;
   }
 }
 
@@ -202,7 +196,7 @@ button:hover {
   border-bottom: 1px solid rgb(226, 226, 226);
 }
 .css-ctmuta {
-  font-family: nyt-cheltenham-small, georgia, "times new roman";
+  font-family: nyt-cheltenham-small, georgia, 'times new roman';
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -214,11 +208,11 @@ button:hover {
 }
 @media (min-width: 1150px) {
   .css-ctmuta {
-      width: calc(100% - 85px);
-      font-weight: 500;
-      padding-bottom: 0px;
-      border-bottom: none;
-      margin: auto 0px auto 10px;
+    width: calc(100% - 85px);
+    font-weight: 500;
+    padding-bottom: 0px;
+    border-bottom: none;
+    margin: auto 0px auto 10px;
   }
 }
 
@@ -228,17 +222,16 @@ button:hover {
 
 @media (min-width: 1150px) {
   .css-lchw6q:last-of-type {
-      padding-bottom: 0px;
+    padding-bottom: 0px;
   }
 }
 
 @media (min-width: 1150px) {
-
   .css-lchw6q {
-      display: block;
-      width: 100px;
-      margin-left: 0px;
-      padding-bottom: 1px;
+    display: block;
+    width: 100px;
+    margin-left: 0px;
+    padding-bottom: 1px;
   }
 }
 .imgSideBar {
